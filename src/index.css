@@ -1,0 +1,44 @@
+:root {
+  --sky-top: #6fb7e0;
+  --sky-mid: #a9d8ee;
+  --sky-bottom: #fbe3c9;
+  --sand: #fdf3e4;
+  --sand-deep: #f6e2c4;
+  --sea: #0f6e7c;
+  --sea-deep: #0a4b56;
+  --sunset: #ff9466;
+  --ink: #14313a;
+  --ink-soft: #3c5a63;
+  --cream: #fffaf2;
+
+  color-scheme: light;
+  color: var(--ink);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', system-ui, sans-serif;
+  background: var(--cream);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+  margin: 0;
+  color: var(--ink);
+}
+
+p {
+  margin: 0;
+}
